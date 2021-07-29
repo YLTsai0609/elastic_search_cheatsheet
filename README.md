@@ -9,3 +9,7 @@
 
 1. [ ] - docker pull elastic-search official image
 2. [ ] - docker pull kibina official image (UI for elastic-search), make them connected.
+
+# Application
+
+1. [ ] - autocomplete
