@@ -6,15 +6,24 @@
 4. [Third party - 用 Docker 架設 Elasticsearch 實驗環境](https://myapollo.com.tw/zh-tw/docker-elasticsearch/)
 5. [elasticsearch - official documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html)
 
+Q : ElasticSearch 是什麼?
+
+
+A : 分散式、可擴充、近即時的高性能搜尋和資料分析引擎，基於 Apache Lucene 建置，採用 Java 撰寫，使用 Laucene 建置索引、提供搜尋功能，ElasticSearch 的目標是讓群文檢索的落地變得更簡單
 # Installtion
 
-1. [ ] - docker pull elastic-search official image
-2. [ ] - docker pull kibina official image (UI for elastic-search), make them connected.
+1. [x] - docker pull elastic-search official image
+2. [x] - docker pull kibina official image (UI for elastic-search), make them connected.
 
 # Basic Usage
 
-1. [x] - dev tools
+1. [x] - dev tools - 001
+2. [x] - search - `match_all`, `sort` - 002, 003
+3. [x] - post data - `_doc`, `_bulk` - 004
 
+# Concept
+
+1. [x] - words
 
 # Application
 
