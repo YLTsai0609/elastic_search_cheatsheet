@@ -17,7 +17,8 @@ https://www.udemy.com/course/elasticsearch-7-and-elastic-stack/learn/lecture/147
 
 chapter|start|complete
 -----|-----|-----
-4 Importing data into your index, big or small|0809|
+1 Installing and Understanding ElasticsSearch|0809|0809
+4 Importing data into your index, big or small|0809|0809
 
 # Installtion
 
