@@ -11,12 +11,10 @@ we can import data into es in realtime!
 3. AWS systems can stream in data via lambda or kinesis firehose
 4. Kafka, spark and more have Elasticsearch integration add ons.
 
-<img src='./assets/46_1.png'></img>
+<img src='../assets/46_1.png'></img>
 
 check the `006_insert_file.es` for details.
 
 Some interesting command
 
 `curl -XDELETE 127.0.0.1:9200/movies`
-
-TODO
