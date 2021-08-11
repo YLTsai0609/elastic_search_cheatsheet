@@ -8,7 +8,6 @@
 
 Q : ElasticSearch 是什麼?
 
-
 A : 分散式、可擴充、近即時的高性能搜尋和資料分析引擎，基於 Apache Lucene 建置，採用 Java 撰寫，使用 Laucene 建置索引、提供搜尋功能，ElasticSearch 的目標是讓群文檢索的落地變得更簡單
 
 # Elasticsearch 7 and the Elastic Stack: In Depth and Hands On
@@ -18,6 +17,8 @@ https://www.udemy.com/course/elasticsearch-7-and-elastic-stack/learn/lecture/147
 chapter|start|complete
 -----|-----|-----
 1 Installing and Understanding ElasticsSearch|0809|0809
+2 Mapping and Indexing Data|0811|0811
+3 Searching with Elasticsearch|0811|
 4 Importing data into your index, big or small|0809|0809
 
 # Installtion
