@@ -2,7 +2,7 @@
 
 Query time searching is a little bitresource intensive compare to Index-based solution.
 
-<img src='./assets/42_1.png'><img>
+<img src='../assets/42_1.png'><img>
 
 Why it called `Edge-ngram`?
 

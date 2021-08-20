@@ -3,10 +3,14 @@
 GET movies/_search
 {
     "query" : {
-        "match" : {}
-    }
-    // "sort" : {"year" : "desc"}
+        "bool" :{
+            "must" : {"term" : {"title" :  "star"}},
+            "filter" : {"range" : {"year" : {"gte" : 2010}}}
+        }
+    },
+    "sort" : {"year" : "desc"}
 }
+
 // text field
 // cannot sort the analyzed field.
 // work around
