@@ -18,7 +18,7 @@ chapter|start|complete
 -----|-----|-----
 1 Installing and Understanding ElasticsSearch|0809|0809
 2 Mapping and Indexing Data|0811|0811
-3 Searching with Elasticsearch|0811|
+3 Searching with Elasticsearch|0811|0820
 4 Importing data into your index, big or small|0809|0809
 8 ElasticSearch Operations|0820|
 
