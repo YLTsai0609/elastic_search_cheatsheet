@@ -1,11 +1,16 @@
-# Index Lifecycle
+# RAM is likely your bottleneck
 
-<img src='../assets/101_1.png'><img>
+<img src='../assets/102_1.png'><img>
 
-1. Hot - actively updating, queryed
-2. Warm - read only, no longer updated
-3. Cold - queried infeqently, no longer updated
+<img src='../assets/102_1.png'><img>
 
-<img src='../assets/101_2.png'><img>
+ES is heavliy IO Bound - use SSD and fast network.
 
-Using such a policy, you can monitor your indecies via monitor!
+Not heavily CPU bound.
+
+So if your application is cloud native, Build ES on cloud.
+
+Instead, your applcation is on the ground. Use SSD and local network!
+
+
+memory stats : https://opster.com/elasticsearch-glossary/elasticsearch-memory-usage/
