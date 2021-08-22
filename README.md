@@ -10,6 +10,13 @@ Q : ElasticSearch 是什麼?
 
 A : 分散式、可擴充、近即時的高性能搜尋和資料分析引擎，基於 Apache Lucene 建置，採用 Java 撰寫，使用 Laucene 建置索引、提供搜尋功能，ElasticSearch 的目標是讓群文檢索的落地變得更簡單
 
+Q : Is Elasticsearch in memory?
+
+A : 
+The Elasticsearch process is very memory intensive. Elasticsearch uses a JVM (Java Virtual Machine), and close to 50% of the memory available on a node should be allocated to JVM. The JVM machine uses memory because the Lucene process needs to know where to look for index values on disk.
+
+https://opster.com/elasticsearch-glossary/elasticsearch-memory-usage/
+
 # Elasticsearch 7 and the Elastic Stack: In Depth and Hands On
 
 https://www.udemy.com/course/elasticsearch-7-and-elastic-stack/learn/lecture/14728134#overview
