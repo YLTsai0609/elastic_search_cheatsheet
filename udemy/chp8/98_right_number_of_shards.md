@@ -28,7 +28,7 @@ e.g. IoT sensors data warehouse
 
 <img src='../assets/98_3.png'><img>
 
-# Jow Many Shards Do I Need?
+# How Many Shards Do I Need?
 
 1. You can't add more shards later witnhout re-indexing.
 
@@ -40,4 +40,4 @@ No formula =(
 
 <img src='../assets/98_6.png'><img>
 
-Read request can ve scalable =)
+Read request can be scalable =)
