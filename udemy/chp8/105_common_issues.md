@@ -27,4 +27,4 @@ for me :
 7. `sudo /bin/systemctl stop elasticsearch.service`
 8. `sudo /bin/systemctl start elasticsearch.service` - now the es get new config `path.repo: ["/home/backups"]` 
 
-This video should be check last, 
+This video should be check last.
