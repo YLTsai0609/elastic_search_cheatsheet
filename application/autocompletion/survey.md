@@ -8,7 +8,7 @@
 
 [Elasticsearch Autocomplete Guide](https://opster.com/elasticsearch-glossary/elasticsearch-auto-complete-guide/)
 
-
+[ES search 中文搜尋??]
 
 Docs :
 ```
@@ -99,3 +99,5 @@ Case sensitive
 4. Store all the terms in lowercase helps in the case-insensitive match.
 5. Context suggester can be enabled to support filtering or boosting by certain criteria.
 6. Idea approach
+
+### Search as your type
