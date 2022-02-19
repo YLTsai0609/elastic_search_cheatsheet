@@ -39,9 +39,11 @@ chapter|start|complete
 2. [x] - search - `match_all`, `sort` - 002, 003
 3. [x] - post data - `_doc`, `_bulk` - 004
 
-# Concept
+# Addtional
 
 1. [x] - words
+2. [x] - how full text search performed?
+3. [ ] - buidling index
 
 # Application
 

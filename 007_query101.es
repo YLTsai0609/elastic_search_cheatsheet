@@ -21,3 +21,11 @@
 //     "text": "台北火鍋"
 // }
 
+// do some experiment on analyzers
+
+// POST _analyze
+// {
+//   "tokenizer": "standard",
+//   "filter":  [ "lowercase", "asciifolding" ],
+//   "text":      "Is this déja vu?"
+// }
