@@ -14,6 +14,19 @@
 //     }
 // }
 
+// explain your query
+// GET index/_search
+// {
+//     "explain":true,
+//     "from": 0,
+//     "size": 10,
+//     "query": {
+//         "match": {
+//             "title": "奇異博士 影評"
+//         }
+//     }
+// }
+
 // analyze your text
 
 // POST topic_article_20201230/_analyze
