@@ -42,3 +42,12 @@
 //   "filter":  [ "lowercase", "asciifolding" ],
 //   "text":      "Is this déja vu?"
 // }
+
+
+
+// GET /YOUR_INDEX/_doc/DOC_ID/_termvectors
+// {
+//   "fields" : ["YOUR_FIELD"],
+//   "term_statistics" : true,
+//   "field_statistics" : true
+// }
