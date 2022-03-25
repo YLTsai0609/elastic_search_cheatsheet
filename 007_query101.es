@@ -51,3 +51,30 @@
 //   "term_statistics" : true,
 //   "field_statistics" : true
 // }
+
+// Ranking Query
+
+// Suppose mixing recency and relevance
+
+// GET article_search_sample/_search
+// {
+//     "query": {
+//         "function_score": {
+//             "functions": [
+//                 {
+//                     "field_value_factor": {
+//                         "field": "recency",
+//                         "factor": 1,
+//                         "modifier": "none"
+//                     }
+//                 }
+//             ],
+//             "query": {
+//                 "match": {
+//                     "topic": "美食"
+//                 }
+//             },
+//             "score_mode": "multiply"
+//         }
+//     }
+// }
